@@ -1,0 +1,327 @@
+Epoch 1/70
+WARNING:tensorflow:From C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+
+WARNING:tensorflow:From C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+
+261/261 [==============================] - ETA: 0s - loss: 1.8929 - accuracy: 0.4974
+Epoch 1: val_accuracy improved from -inf to 0.69519, saving model to model\handgenie_model.h5
+C:\Users\HP\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\keras\src\engine\training.py:3103: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+261/261 [==============================] - 340s 1s/step - loss: 1.8929 - accuracy: 0.4974 - val_loss: 1.1837 - val_accuracy: 0.6952 - lr: 1.0000e-04
+Epoch 2/70
+261/261 [==============================] - ETA: 0s - loss: 0.8970 - accuracy: 0.7695
+Epoch 2: val_accuracy improved from 0.69519 to 0.81923, saving model to model\handgenie_model.h5
+261/261 [==============================] - 266s 1s/step - loss: 0.8970 - accuracy: 0.7695 - val_loss: 0.7109 - val_accuracy: 0.8192 - lr: 1.0000e-04
+Epoch 3/70
+261/261 [==============================] - ETA: 0s - loss: 0.6300 - accuracy: 0.8379
+Epoch 3: val_accuracy improved from 0.81923 to 0.86154, saving model to model\handgenie_model.h5
+261/261 [==============================] - 327s 1s/step - loss: 0.6300 - accuracy: 0.8379 - val_loss: 0.5404 - val_accuracy: 0.8615 - lr: 1.0000e-04
+Epoch 4/70
+261/261 [==============================] - ETA: 0s - loss: 0.4967 - accuracy: 0.8717
+Epoch 4: val_accuracy improved from 0.86154 to 0.88462, saving model to model\handgenie_model.h5
+261/261 [==============================] - 265s 1s/step - loss: 0.4967 - accuracy: 0.8717 - val_loss: 0.4600 - val_accuracy: 0.8846 - lr: 1.0000e-04
+Epoch 5/70
+261/261 [==============================] - ETA: 0s - loss: 0.4192 - accuracy: 0.8859
+Epoch 5: val_accuracy did not improve from 0.88462
+261/261 [==============================] - 254s 975ms/step - loss: 0.4192 - accuracy: 0.8859 - val_loss: 0.4288 - val_accuracy: 0.8827 - lr: 1.0000e-04
+Epoch 6/70
+261/261 [==============================] - ETA: 0s - loss: 0.3658 - accuracy: 0.9015
+Epoch 6: val_accuracy improved from 0.88462 to 0.91058, saving model to model\handgenie_model.h5
+261/261 [==============================] - 256s 981ms/step - loss: 0.3658 - accuracy: 0.9015 - val_loss: 0.3480 - val_accuracy: 0.9106 - lr: 1.0000e-04
+Epoch 7/70
+261/261 [==============================] - ETA: 0s - loss: 0.3212 - accuracy: 0.9145
+Epoch 7: val_accuracy did not improve from 0.91058
+261/261 [==============================] - 255s 976ms/step - loss: 0.3212 - accuracy: 0.9145 - val_loss: 0.3340 - val_accuracy: 0.9077 - lr: 1.0000e-04
+Epoch 8/70
+261/261 [==============================] - ETA: 0s - loss: 0.2904 - accuracy: 0.9194
+Epoch 8: val_accuracy did not improve from 0.91058
+261/261 [==============================] - 254s 973ms/step - loss: 0.2904 - accuracy: 0.9194 - val_loss: 0.3254 - val_accuracy: 0.9062 - lr: 1.0000e-04
+Epoch 9/70
+261/261 [==============================] - ETA: 0s - loss: 0.2643 - accuracy: 0.9277
+Epoch 9: val_accuracy improved from 0.91058 to 0.92837, saving model to model\handgenie_model.h5
+261/261 [==============================] - 256s 981ms/step - loss: 0.2643 - accuracy: 0.9277 - val_loss: 0.2686 - val_accuracy: 0.9284 - lr: 1.0000e-04
+Epoch 10/70
+261/261 [==============================] - ETA: 0s - loss: 0.2445 - accuracy: 0.9349
+Epoch 10: val_accuracy improved from 0.92837 to 0.92933, saving model to model\handgenie_model.h5
+261/261 [==============================] - 255s 975ms/step - loss: 0.2445 - accuracy: 0.9349 - val_loss: 0.2487 - val_accuracy: 0.9293 - lr: 1.0000e-04
+Epoch 11/70
+261/261 [==============================] - ETA: 0s - loss: 0.2261 - accuracy: 0.9389
+Epoch 11: val_accuracy improved from 0.92933 to 0.93798, saving model to model\handgenie_model.h5
+261/261 [==============================] - 262s 1s/step - loss: 0.2261 - accuracy: 0.9389 - val_loss: 0.2197 - val_accuracy: 0.9380 - lr: 1.0000e-04
+Epoch 12/70
+261/261 [==============================] - ETA: 0s - loss: 0.2233 - accuracy: 0.9348
+Epoch 12: val_accuracy did not improve from 0.93798
+261/261 [==============================] - 252s 965ms/step - loss: 0.2233 - accuracy: 0.9348 - val_loss: 0.2256 - val_accuracy: 0.9365 - lr: 1.0000e-04
+Epoch 13/70
+261/261 [==============================] - ETA: 0s - loss: 0.2056 - accuracy: 0.9425
+Epoch 13: val_accuracy did not improve from 0.93798
+261/261 [==============================] - 254s 972ms/step - loss: 0.2056 - accuracy: 0.9425 - val_loss: 0.2193 - val_accuracy: 0.9317 - lr: 1.0000e-04
+Epoch 14/70
+261/261 [==============================] - ETA: 0s - loss: 0.1992 - accuracy: 0.9431
+Epoch 14: val_accuracy improved from 0.93798 to 0.93846, saving model to model\handgenie_model.h5
+261/261 [==============================] - 254s 974ms/step - loss: 0.1992 - accuracy: 0.9431 - val_loss: 0.2056 - val_accuracy: 0.9385 - lr: 1.0000e-04
+Epoch 15/70
+261/261 [==============================] - ETA: 0s - loss: 0.1688 - accuracy: 0.9538
+Epoch 15: val_accuracy improved from 0.93846 to 0.95144, saving model to model\handgenie_model.h5
+261/261 [==============================] - 255s 978ms/step - loss: 0.1688 - accuracy: 0.9538 - val_loss: 0.1760 - val_accuracy: 0.9514 - lr: 1.0000e-04
+Epoch 16/70
+261/261 [==============================] - ETA: 0s - loss: 0.1822 - accuracy: 0.9458
+Epoch 16: val_accuracy did not improve from 0.95144
+261/261 [==============================] - 254s 974ms/step - loss: 0.1822 - accuracy: 0.9458 - val_loss: 0.1773 - val_accuracy: 0.9490 - lr: 1.0000e-04
+Epoch 17/70
+261/261 [==============================] - ETA: 0s - loss: 0.1733 - accuracy: 0.9520
+Epoch 17: val_accuracy did not improve from 0.95144
+261/261 [==============================] - 253s 970ms/step - loss: 0.1733 - accuracy: 0.9520 - val_loss: 0.1786 - val_accuracy: 0.9438 - lr: 1.0000e-04
+Epoch 18/70
+261/261 [==============================] - ETA: 0s - loss: 0.1503 - accuracy: 0.9561
+Epoch 18: val_accuracy improved from 0.95144 to 0.95913, saving model to model\handgenie_model.h5
+261/261 [==============================] - 254s 973ms/step - loss: 0.1503 - accuracy: 0.9561 - val_loss: 0.1527 - val_accuracy: 0.9591 - lr: 1.0000e-04
+Epoch 19/70
+261/261 [==============================] - ETA: 0s - loss: 0.1362 - accuracy: 0.9630
+Epoch 19: val_accuracy did not improve from 0.95913
+261/261 [==============================] - 254s 972ms/step - loss: 0.1362 - accuracy: 0.9630 - val_loss: 0.1584 - val_accuracy: 0.9577 - lr: 1.0000e-04
+Epoch 20/70
+261/261 [==============================] - ETA: 0s - loss: 0.1478 - accuracy: 0.9590
+Epoch 20: val_accuracy improved from 0.95913 to 0.96250, saving model to model\handgenie_model.h5
+261/261 [==============================] - 254s 975ms/step - loss: 0.1478 - accuracy: 0.9590 - val_loss: 0.1401 - val_accuracy: 0.9625 - lr: 1.0000e-04
+Epoch 21/70
+261/261 [==============================] - ETA: 0s - loss: 0.1428 - accuracy: 0.9551
+Epoch 21: val_accuracy did not improve from 0.96250
+261/261 [==============================] - 254s 971ms/step - loss: 0.1428 - accuracy: 0.9551 - val_loss: 0.1536 - val_accuracy: 0.9529 - lr: 1.0000e-04
+Epoch 22/70
+261/261 [==============================] - ETA: 0s - loss: 0.1384 - accuracy: 0.9590
+Epoch 22: val_accuracy did not improve from 0.96250
+261/261 [==============================] - 254s 971ms/step - loss: 0.1384 - accuracy: 0.9590 - val_loss: 0.1500 - val_accuracy: 0.9572 - lr: 1.0000e-04
+Epoch 23/70
+261/261 [==============================] - ETA: 0s - loss: 0.1381 - accuracy: 0.9588
+Epoch 23: val_accuracy did not improve from 0.96250
+261/261 [==============================] - 253s 968ms/step - loss: 0.1381 - accuracy: 0.9588 - val_loss: 0.1452 - val_accuracy: 0.9582 - lr: 1.0000e-04
+Epoch 24/70
+261/261 [==============================] - ETA: 0s - loss: 0.1369 - accuracy: 0.9560
+Epoch 24: val_accuracy improved from 0.96250 to 0.96683, saving model to model\handgenie_model.h5
+261/261 [==============================] - 254s 972ms/step - loss: 0.1369 - accuracy: 0.9560 - val_loss: 0.1217 - val_accuracy: 0.9668 - lr: 1.0000e-04
+Epoch 25/70
+261/261 [==============================] - ETA: 0s - loss: 0.1214 - accuracy: 0.9655
+Epoch 25: val_accuracy did not improve from 0.96683
+261/261 [==============================] - 253s 970ms/step - loss: 0.1214 - accuracy: 0.9655 - val_loss: 0.1425 - val_accuracy: 0.9529 - lr: 1.0000e-04
+Epoch 26/70
+261/261 [==============================] - ETA: 0s - loss: 0.1193 - accuracy: 0.9662
+Epoch 26: val_accuracy improved from 0.96683 to 0.96971, saving model to model\handgenie_model.h5
+261/261 [==============================] - 254s 974ms/step - loss: 0.1193 - accuracy: 0.9662 - val_loss: 0.1096 - val_accuracy: 0.9697 - lr: 1.0000e-04
+Epoch 27/70
+261/261 [==============================] - ETA: 0s - loss: 0.1139 - accuracy: 0.9649
+Epoch 27: val_accuracy did not improve from 0.96971
+261/261 [==============================] - 255s 977ms/step - loss: 0.1139 - accuracy: 0.9649 - val_loss: 0.1175 - val_accuracy: 0.9654 - lr: 1.0000e-04
+Epoch 28/70
+261/261 [==============================] - ETA: 0s - loss: 0.1110 - accuracy: 0.9675
+Epoch 28: val_accuracy did not improve from 0.96971
+261/261 [==============================] - 253s 970ms/step - loss: 0.1110 - accuracy: 0.9675 - val_loss: 0.1172 - val_accuracy: 0.9654 - lr: 1.0000e-04
+Epoch 29/70
+261/261 [==============================] - ETA: 0s - loss: 0.1097 - accuracy: 0.9661
+Epoch 29: val_accuracy did not improve from 0.96971
+261/261 [==============================] - 253s 970ms/step - loss: 0.1097 - accuracy: 0.9661 - val_loss: 0.1148 - val_accuracy: 0.9639 - lr: 1.0000e-04
+Epoch 30/70
+261/261 [==============================] - ETA: 0s - loss: 0.1018 - accuracy: 0.9682
+Epoch 30: val_accuracy did not improve from 0.96971
+261/261 [==============================] - 254s 972ms/step - loss: 0.1018 - accuracy: 0.9682 - val_loss: 0.1271 - val_accuracy: 0.9577 - lr: 1.0000e-04
+Epoch 31/70
+261/261 [==============================] - ETA: 0s - loss: 0.0990 - accuracy: 0.9718
+Epoch 31: val_accuracy did not improve from 0.96971
+261/261 [==============================] - 254s 973ms/step - loss: 0.0990 - accuracy: 0.9718 - val_loss: 0.1066 - val_accuracy: 0.9683 - lr: 1.0000e-04
+Epoch 32/70
+261/261 [==============================] - ETA: 0s - loss: 0.1031 - accuracy: 0.9684
+Epoch 32: val_accuracy improved from 0.96971 to 0.97019, saving model to model\handgenie_model.h5
+261/261 [==============================] - 254s 974ms/step - loss: 0.1031 - accuracy: 0.9684 - val_loss: 0.1109 - val_accuracy: 0.9702 - lr: 1.0000e-04
+Epoch 33/70
+261/261 [==============================] - ETA: 0s - loss: 0.1016 - accuracy: 0.9686
+Epoch 33: val_accuracy did not improve from 0.97019
+261/261 [==============================] - 254s 972ms/step - loss: 0.1016 - accuracy: 0.9686 - val_loss: 0.1176 - val_accuracy: 0.9654 - lr: 1.0000e-04
+Epoch 34/70
+261/261 [==============================] - ETA: 0s - loss: 0.1041 - accuracy: 0.9666
+Epoch 34: val_accuracy improved from 0.97019 to 0.97163, saving model to model\handgenie_model.h5
+261/261 [==============================] - 255s 975ms/step - loss: 0.1041 - accuracy: 0.9666 - val_loss: 0.1075 - val_accuracy: 0.9716 - lr: 1.0000e-04
+Epoch 35/70
+261/261 [==============================] - ETA: 0s - loss: 0.1001 - accuracy: 0.9699
+Epoch 35: val_accuracy improved from 0.97163 to 0.97356, saving model to model\handgenie_model.h5
+261/261 [==============================] - 254s 973ms/step - loss: 0.1001 - accuracy: 0.9699 - val_loss: 0.0955 - val_accuracy: 0.9736 - lr: 1.0000e-04
+Epoch 36/70
+261/261 [==============================] - ETA: 0s - loss: 0.0889 - accuracy: 0.9745
+Epoch 36: val_accuracy did not improve from 0.97356
+261/261 [==============================] - 253s 969ms/step - loss: 0.0889 - accuracy: 0.9745 - val_loss: 0.0947 - val_accuracy: 0.9707 - lr: 1.0000e-04
+Epoch 37/70
+261/261 [==============================] - ETA: 0s - loss: 0.0863 - accuracy: 0.9745
+Epoch 37: val_accuracy did not improve from 0.97356
+261/261 [==============================] - 281s 1s/step - loss: 0.0863 - accuracy: 0.9745 - val_loss: 0.0980 - val_accuracy: 0.9716 - lr: 1.0000e-04
+Epoch 38/70
+261/261 [==============================] - ETA: 0s - loss: 0.0953 - accuracy: 0.9723
+Epoch 38: val_accuracy did not improve from 0.97356
+261/261 [==============================] - 278s 1s/step - loss: 0.0953 - accuracy: 0.9723 - val_loss: 0.1044 - val_accuracy: 0.9697 - lr: 1.0000e-04
+Epoch 39/70
+261/261 [==============================] - ETA: 0s - loss: 0.0818 - accuracy: 0.9768
+Epoch 39: val_accuracy did not improve from 0.97356
+261/261 [==============================] - 255s 978ms/step - loss: 0.0818 - accuracy: 0.9768 - val_loss: 0.0941 - val_accuracy: 0.9688 - lr: 1.0000e-04
+Epoch 40/70
+261/261 [==============================] - ETA: 0s - loss: 0.0857 - accuracy: 0.9734
+Epoch 40: val_accuracy improved from 0.97356 to 0.97596, saving model to model\handgenie_model.h5
+261/261 [==============================] - 243s 931ms/step - loss: 0.0857 - accuracy: 0.9734 - val_loss: 0.0864 - val_accuracy: 0.9760 - lr: 1.0000e-04
+Epoch 41/70
+261/261 [==============================] - ETA: 0s - loss: 0.0762 - accuracy: 0.9781
+Epoch 41: val_accuracy did not improve from 0.97596
+261/261 [==============================] - 244s 933ms/step - loss: 0.0762 - accuracy: 0.9781 - val_loss: 0.1120 - val_accuracy: 0.9601 - lr: 1.0000e-04
+Epoch 42/70
+261/261 [==============================] - ETA: 0s - loss: 0.0883 - accuracy: 0.9716
+Epoch 42: val_accuracy improved from 0.97596 to 0.97644, saving model to model\handgenie_model.h5
+261/261 [==============================] - 244s 936ms/step - loss: 0.0883 - accuracy: 0.9716 - val_loss: 0.0912 - val_accuracy: 0.9764 - lr: 1.0000e-04
+Epoch 43/70
+261/261 [==============================] - ETA: 0s - loss: 0.0871 - accuracy: 0.9727
+Epoch 43: val_accuracy did not improve from 0.97644
+261/261 [==============================] - 245s 939ms/step - loss: 0.0871 - accuracy: 0.9727 - val_loss: 0.0877 - val_accuracy: 0.9731 - lr: 1.0000e-04
+Epoch 44/70
+261/261 [==============================] - ETA: 0s - loss: 0.0761 - accuracy: 0.9781
+Epoch 44: val_accuracy did not improve from 0.97644
+261/261 [==============================] - 242s 927ms/step - loss: 0.0761 - accuracy: 0.9781 - val_loss: 0.0837 - val_accuracy: 0.9755 - lr: 1.0000e-04
+Epoch 45/70
+261/261 [==============================] - ETA: 0s - loss: 0.0747 - accuracy: 0.9772
+Epoch 45: val_accuracy did not improve from 0.97644
+261/261 [==============================] - 241s 924ms/step - loss: 0.0747 - accuracy: 0.9772 - val_loss: 0.1057 - val_accuracy: 0.9707 - lr: 1.0000e-04
+Epoch 46/70
+261/261 [==============================] - ETA: 0s - loss: 0.0746 - accuracy: 0.9784
+Epoch 46: val_accuracy did not improve from 0.97644
+261/261 [==============================] - 244s 936ms/step - loss: 0.0746 - accuracy: 0.9784 - val_loss: 0.1005 - val_accuracy: 0.9702 - lr: 1.0000e-04
+Epoch 47/70
+261/261 [==============================] - ETA: 0s - loss: 0.0710 - accuracy: 0.9772
+Epoch 47: val_accuracy did not improve from 0.97644
+261/261 [==============================] - 242s 927ms/step - loss: 0.0710 - accuracy: 0.9772 - val_loss: 0.0810 - val_accuracy: 0.9745 - lr: 1.0000e-04
+Epoch 48/70
+261/261 [==============================] - ETA: 0s - loss: 0.0727 - accuracy: 0.9768
+Epoch 48: val_accuracy improved from 0.97644 to 0.97740, saving model to model\handgenie_model.h5
+261/261 [==============================] - 242s 928ms/step - loss: 0.0727 - accuracy: 0.9768 - val_loss: 0.0881 - val_accuracy: 0.9774 - lr: 1.0000e-04
+Epoch 49/70
+261/261 [==============================] - ETA: 0s - loss: 0.0766 - accuracy: 0.9760
+Epoch 49: val_accuracy did not improve from 0.97740
+261/261 [==============================] - 242s 929ms/step - loss: 0.0766 - accuracy: 0.9760 - val_loss: 0.0837 - val_accuracy: 0.9697 - lr: 1.0000e-04
+Epoch 50/70
+261/261 [==============================] - ETA: 0s - loss: 0.0772 - accuracy: 0.9739
+Epoch 50: val_accuracy improved from 0.97740 to 0.98173, saving model to model\handgenie_model.h5
+261/261 [==============================] - 243s 929ms/step - loss: 0.0772 - accuracy: 0.9739 - val_loss: 0.0761 - val_accuracy: 0.9817 - lr: 1.0000e-04
+Epoch 51/70
+261/261 [==============================] - ETA: 0s - loss: 0.0816 - accuracy: 0.9742
+Epoch 51: val_accuracy did not improve from 0.98173
+261/261 [==============================] - 244s 936ms/step - loss: 0.0816 - accuracy: 0.9742 - val_loss: 0.0850 - val_accuracy: 0.9745 - lr: 1.0000e-04
+Epoch 52/70
+261/261 [==============================] - ETA: 0s - loss: 0.0719 - accuracy: 0.9766
+Epoch 52: val_accuracy did not improve from 0.98173
+261/261 [==============================] - 243s 930ms/step - loss: 0.0719 - accuracy: 0.9766 - val_loss: 0.0851 - val_accuracy: 0.9784 - lr: 1.0000e-04
+Epoch 53/70
+261/261 [==============================] - ETA: 0s - loss: 0.0737 - accuracy: 0.9774
+Epoch 53: val_accuracy did not improve from 0.98173
+261/261 [==============================] - 241s 925ms/step - loss: 0.0737 - accuracy: 0.9774 - val_loss: 0.0908 - val_accuracy: 0.9721 - lr: 1.0000e-04
+Epoch 54/70
+261/261 [==============================] - ETA: 0s - loss: 0.0720 - accuracy: 0.9772
+Epoch 54: val_accuracy did not improve from 0.98173
+261/261 [==============================] - 241s 925ms/step - loss: 0.0720 - accuracy: 0.9772 - val_loss: 0.0782 - val_accuracy: 0.9764 - lr: 1.0000e-04
+Epoch 55/70
+261/261 [==============================] - ETA: 0s - loss: 0.0633 - accuracy: 0.9798
+Epoch 55: val_accuracy did not improve from 0.98173
+261/261 [==============================] - 244s 937ms/step - loss: 0.0633 - accuracy: 0.9798 - val_loss: 0.0748 - val_accuracy: 0.9788 - lr: 1.0000e-04
+Epoch 56/70
+261/261 [==============================] - ETA: 0s - loss: 0.0624 - accuracy: 0.9800
+Epoch 56: val_accuracy did not improve from 0.98173
+261/261 [==============================] - 245s 940ms/step - loss: 0.0624 - accuracy: 0.9800 - val_loss: 0.0716 - val_accuracy: 0.9808 - lr: 1.0000e-04
+Epoch 57/70
+261/261 [==============================] - ETA: 0s - loss: 0.0653 - accuracy: 0.9795
+Epoch 57: val_accuracy did not improve from 0.98173
+261/261 [==============================] - 244s 934ms/step - loss: 0.0653 - accuracy: 0.9795 - val_loss: 0.0816 - val_accuracy: 0.9760 - lr: 1.0000e-04
+Epoch 58/70
+261/261 [==============================] - ETA: 0s - loss: 0.0597 - accuracy: 0.9815
+Epoch 58: val_accuracy did not improve from 0.98173
+261/261 [==============================] - 252s 964ms/step - loss: 0.0597 - accuracy: 0.9815 - val_loss: 0.0708 - val_accuracy: 0.9755 - lr: 1.0000e-04
+Epoch 59/70
+261/261 [==============================] - ETA: 0s - loss: 0.0629 - accuracy: 0.9793
+Epoch 59: val_accuracy improved from 0.98173 to 0.98317, saving model to model\handgenie_model.h5
+261/261 [==============================] - 238s 910ms/step - loss: 0.0629 - accuracy: 0.9793 - val_loss: 0.0587 - val_accuracy: 0.9832 - lr: 1.0000e-04
+Epoch 60/70
+261/261 [==============================] - ETA: 0s - loss: 0.0650 - accuracy: 0.9792
+Epoch 60: val_accuracy did not improve from 0.98317
+261/261 [==============================] - 237s 908ms/step - loss: 0.0650 - accuracy: 0.9792 - val_loss: 0.0823 - val_accuracy: 0.9750 - lr: 1.0000e-04
+Epoch 61/70
+261/261 [==============================] - ETA: 0s - loss: 0.0673 - accuracy: 0.9789
+Epoch 61: val_accuracy did not improve from 0.98317
+261/261 [==============================] - 238s 911ms/step - loss: 0.0673 - accuracy: 0.9789 - val_loss: 0.0830 - val_accuracy: 0.9769 - lr: 1.0000e-04
+Epoch 62/70
+261/261 [==============================] - ETA: 0s - loss: 0.0604 - accuracy: 0.9800
+Epoch 62: val_accuracy did not improve from 0.98317
+261/261 [==============================] - 236s 906ms/step - loss: 0.0604 - accuracy: 0.9800 - val_loss: 0.0690 - val_accuracy: 0.9798 - lr: 1.0000e-04
+Epoch 63/70
+261/261 [==============================] - ETA: 0s - loss: 0.0643 - accuracy: 0.9790
+Epoch 63: val_accuracy did not improve from 0.98317
+261/261 [==============================] - 236s 904ms/step - loss: 0.0643 - accuracy: 0.9790 - val_loss: 0.0811 - val_accuracy: 0.9736 - lr: 1.0000e-04
+Epoch 64/70
+261/261 [==============================] - ETA: 0s - loss: 0.0631 - accuracy: 0.9789
+Epoch 64: val_accuracy did not improve from 0.98317
+
+Epoch 64: ReduceLROnPlateau reducing learning rate to 4.999999873689376e-05.
+261/261 [==============================] - 242s 926ms/step - loss: 0.0631 - accuracy: 0.9789 - val_loss: 0.0799 - val_accuracy: 0.9769 - lr: 1.0000e-04
+Epoch 65/70
+261/261 [==============================] - ETA: 0s - loss: 0.0459 - accuracy: 0.9860
+Epoch 65: val_accuracy improved from 0.98317 to 0.98702, saving model to model\handgenie_model.h5
+261/261 [==============================] - 249s 956ms/step - loss: 0.0459 - accuracy: 0.9860 - val_loss: 0.0542 - val_accuracy: 0.9870 - lr: 5.0000e-05
+Epoch 66/70
+261/261 [==============================] - ETA: 0s - loss: 0.0354 - accuracy: 0.9905
+Epoch 66: val_accuracy did not improve from 0.98702
+261/261 [==============================] - 245s 938ms/step - loss: 0.0354 - accuracy: 0.9905 - val_loss: 0.0530 - val_accuracy: 0.9851 - lr: 5.0000e-05
+Epoch 67/70
+261/261 [==============================] - ETA: 0s - loss: 0.0386 - accuracy: 0.9885
+Epoch 67: val_accuracy did not improve from 0.98702
+261/261 [==============================] - 237s 908ms/step - loss: 0.0386 - accuracy: 0.9885 - val_loss: 0.0624 - val_accuracy: 0.9793 - lr: 5.0000e-05
+Epoch 68/70
+261/261 [==============================] - ETA: 0s - loss: 0.0447 - accuracy: 0.9854
+Epoch 68: val_accuracy improved from 0.98702 to 0.98846, saving model to model\handgenie_model.h5
+261/261 [==============================] - 237s 909ms/step - loss: 0.0447 - accuracy: 0.9854 - val_loss: 0.0517 - val_accuracy: 0.9885 - lr: 5.0000e-05
+Epoch 69/70
+261/261 [==============================] - ETA: 0s - loss: 0.0428 - accuracy: 0.9861
+Epoch 69: val_accuracy did not improve from 0.98846
+261/261 [==============================] - 237s 909ms/step - loss: 0.0428 - accuracy: 0.9861 - val_loss: 0.0497 - val_accuracy: 0.9865 - lr: 5.0000e-05
+Epoch 70/70
+261/261 [==============================] - ETA: 0s - loss: 0.0473 - accuracy: 0.9849
+Epoch 70: val_accuracy did not improve from 0.98846
+261/261 [==============================] - 237s 908ms/step - loss: 0.0473 - accuracy: 0.9849 - val_loss: 0.0591 - val_accuracy: 0.9832 - lr: 5.0000e-05
+294m7second
+
+
+Found 2080 images belonging to 26 classes.
+65/65 [==============================] - 30s 438ms/step
+Classification Report:
+
+              precision    recall  f1-score   support
+
+           A       1.00      1.00      1.00        80
+           B       1.00      1.00      1.00        80
+           C       1.00      1.00      1.00        80
+           D       0.99      1.00      0.99        80
+           E       0.99      1.00      0.99        80
+           F       1.00      0.99      0.99        80
+           G       1.00      1.00      1.00        80
+           H       1.00      1.00      1.00        80
+           I       1.00      1.00      1.00        80
+           J       1.00      1.00      1.00        80
+           K       1.00      1.00      1.00        80
+           L       1.00      1.00      1.00        80
+           M       0.99      0.99      0.99        80
+           N       1.00      0.99      0.99        80
+           O       1.00      1.00      1.00        80
+           P       1.00      1.00      1.00        80
+           Q       1.00      1.00      1.00        80
+           R       1.00      1.00      1.00        80
+           S       1.00      1.00      1.00        80
+           T       0.99      1.00      0.99        80
+           U       1.00      1.00      1.00        80
+           V       1.00      1.00      1.00        80
+           W       1.00      1.00      1.00        80
+           X       1.00      1.00      1.00        80
+           Y       1.00      1.00      1.00        80
+           Z       1.00      0.99      0.99        80
+
+    accuracy                           1.00      2080
+   macro avg       1.00      1.00      1.00      2080
+weighted avg       1.00      1.00      1.00      2080
